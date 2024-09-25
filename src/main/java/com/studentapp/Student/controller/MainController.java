@@ -54,7 +54,8 @@ public class MainController {
 		std.setCourse(studentinfo.getCourse());
 		std.setName(studentinfo.getName());
 		std.setYear(studentinfo.getYear());
-		return "redirect:/";
+  std. save(std) ;
+		return "redirect:/home";
 
 	}
 
